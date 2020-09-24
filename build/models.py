@@ -9,6 +9,7 @@ class Prop(models.Model):
     state = models.CharField(max_length=30,unique=False)
     photo = models.ImageField(default='default.png',upload_to='site_photos',blank=True,null=True)
     vastu = models.CharField(max_length=50,unique=False)
+    cost = models.IntegerField(unique=False,default=100)
     facilities = models.CharField(max_length=50,unique=False)
     date_added = models.DateTimeField(default=datetime.now,blank=True)
     
