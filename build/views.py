@@ -35,7 +35,7 @@ def search(request):
         if price:
             listings=listings.filter(price__lte=price)
     """
-    pageCursor = Paginator(prop, 10)
+    pageCursor = Paginator(prop, 3)
     page = request.GET.get("page")
     try:
         prop_list = pageCursor.page(page)
