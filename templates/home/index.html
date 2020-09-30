@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
+    <meta name="author" content="TemplateMo"> -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <title>Document</title>
@@ -14,6 +14,8 @@
     
     <link rel="stylesheet" href="{% static 'home/css/bootstrap.min.css' %}">
 
+    
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"> -->
 
     <link rel="stylesheet" href="{% static 'home/css/font-awesome.css' %} ">
@@ -21,18 +23,30 @@
     <link rel="stylesheet" href="{% static 'home/css/templatemo-lava.css' %} "> 
 
     <link rel="stylesheet" href="{% static 'home/css/owl-carousel.css' %} ">
+    <style>
+        #bl{
+            border: 2px solid white;
+            border-radius: 5%;
+            height: 10rem;
+            padding-top: 3rem;
+            background-color: black;
+            color: white;" 
+            margin-left: 4%;
+            
+        }
+    </style>
 
 </head>
 <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div>
+    </div> -->
     <!-- ***** Preloader End ***** -->
 
 
@@ -233,6 +247,37 @@
 
     <div class="right-image-decor"></div>
 
+    <div class="section" id="about"  style="background-color: burlywood;padding-left: 0rem;padding-right: 0ch;margin-right: 8rem;margin-left: 12rem;">
+        <div class="container" >
+            
+        <div class="row" >
+            <div  class="col" id="bl"><h3>Visit the Website</h3></div>
+            <div style="margin-top: 50px;">
+                
+            <i class='fas fa-angle-double-right' style='font-size:48px;color:red'></i>
+            </div>
+            <div id="bl" class="col"><h3>Sort The List</h3></div>
+            <div style="margin-top: 50px;">
+                
+                <i class='fas fa-angle-double-right' style='font-size:48px;color:red'></i>
+                </div>
+            <div  id="bl" class="col"><h3>Site Seeing</h3></div>
+            <div style="margin-top: 50px;">
+                
+                <i class='fas fa-angle-double-right' style='font-size:48px;color:red'></i>
+                </div>
+
+            <div id="bl" class="col"><h3>Cortex Watching</h3></div>
+            <div style="margin-top: 50px;">
+                
+                <i class='fas fa-angle-double-right' style='font-size:48px;color:red'></i>
+                </div>
+
+            <div id="bl" class="col"><h3>Buying</h3></div>
+        </div>
+        </div>
+    </div>
+
     <!-- ***** Testimonials Starts ***** -->
     <section class="section" id="testimonials">
         <div class="container">
@@ -380,29 +425,74 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
+            <div  style="color: black;background-color: black;margin-left: 0%;" >
+                <div >
                     <div class="sub-footer">
-                        
-
-                        | Designed by <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+                        <div class="row" style="margin-left: 0%;">
+                            <div class="col-lg">
+                                <h3>Our office</h3>
+                                <ul>
+                                    <li style="color: white;"><strong>Address</strong>
+                                        <p style="text-emphasis-color: black;margin-left: 5%;">: blaa nagar bla colony bla street bal number bla country</p>
+                                        
+                                  </li>
+                                    <li style="color: white;" ><strong>Phone</strong><p>:  +91 9900000000</p>
+                                  </li>
+                                    <li style="color: white;"  ><strong>Email</strong><p>: <a href="#">abc@Support.com</a></p>
+                                  </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <h3>About Us</h3>
+                                <ul>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Tutorials</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg">
+                                <h3>Support</h3>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Disclaimer</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col-lg-4 col-md-4 col-sm-12">
+                                <h3>Subscribe to our newsletter</h3>
+                                <ul>
+                                    <li>
+                                        <form id="newsletter_subscribe" data-action="newsletter_subscribe.php" action="" method="POST">
+                                            <p>
+                                            <input type="email" class="newsletterField" name="email" value="" placeholder="Enter your email address" required="">
+                                            <input type="submit" class="submitNewsletter" name="" value="">
+                                            </p>
+                                        </form>
+                                        <div id="after-subscribe"></div>
+                                        
+                                      <p class="small" style="margin-top:5px">100% privacy. we will never spam you!</p>
+                                  </li>
+                                </ul>
+                            </div>
+                          </div>
+                     -->
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
+   
     <script src="{% static 'home/js/jquery-2.1.0.min.js' %}"></script>
     <script src="{% static 'home/js/popper.js' %}"></script>
+    
     <script src="{% static 'home/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'home/js/owl-carousel.js' %}"></script>
     <script src="{% static 'home/js/scrollreveal.min.js' %}"></script>
     <script src="{% static 'home/js/waypoints.min.js' %}"></script>
     <script src="{% static 'home/js/jquery.counterup.min.js' %}"></script>
     <script src="{% static 'home/js/imgfix.min.js' %}"></script>
-    <script src="{% static 'home/js/custom.js' %}"></script>
-    <script src="{% static 'home/js/' %}"></script>
-    <script src="{% static 'home/js/' %}"></script>
 
+    <script src="{% static 'home/js/custom.js' %}"></script>
+   
 </body>
 </html>
